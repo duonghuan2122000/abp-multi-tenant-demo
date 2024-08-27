@@ -1,0 +1,17 @@
+﻿{
+  "applications": {
+    "Sora.AbpDemo.HttpApi.Host": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44386",
+      "path": "../../../src/Sora.AbpDemo.HttpApi.Host/Sora.AbpDemo.HttpApi.Host.csproj",
+      "kubernetesService": ".*-httpapihost$"  
+    },
+    "Sora.AbpDemo.Angular": {
+      "type": "cli",
+      "workingDirectory": "../../../angular",
+      "startCommand": "./start.ps1",
+      "launchUrl": "http://localhost:4200",
+      "kubernetesService": ".*-angular$"        
+    }
+  }
+}

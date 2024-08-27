@@ -1,0 +1,85 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.Account": {
+      "version": "8.2.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.2.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.2.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.2.2",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Sora.AbpDemo.Application": {
+      "path": "src/Sora.AbpDemo.Application/Sora.AbpDemo.Application.abppkg",
+      "folder": "src"
+    },
+    "Sora.AbpDemo.Application.Tests": {
+      "path": "test/Sora.AbpDemo.Application.Tests/Sora.AbpDemo.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Sora.AbpDemo.Domain.Shared": {
+      "path": "src/Sora.AbpDemo.Domain.Shared/Sora.AbpDemo.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Sora.AbpDemo.Application.Contracts": {
+      "path": "src/Sora.AbpDemo.Application.Contracts/Sora.AbpDemo.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Sora.AbpDemo.HttpApi": {
+      "path": "src/Sora.AbpDemo.HttpApi/Sora.AbpDemo.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Sora.AbpDemo.HttpApi.Client": {
+      "path": "src/Sora.AbpDemo.HttpApi.Client/Sora.AbpDemo.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Sora.AbpDemo.EntityFrameworkCore.Tests": {
+      "path": "test/Sora.AbpDemo.EntityFrameworkCore.Tests/Sora.AbpDemo.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Sora.AbpDemo.EntityFrameworkCore": {
+      "path": "src/Sora.AbpDemo.EntityFrameworkCore/Sora.AbpDemo.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Sora.AbpDemo.TestBase": {
+      "path": "test/Sora.AbpDemo.TestBase/Sora.AbpDemo.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Sora.AbpDemo.Domain.Tests": {
+      "path": "test/Sora.AbpDemo.Domain.Tests/Sora.AbpDemo.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Sora.AbpDemo.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Sora.AbpDemo.HttpApi.Client.ConsoleTestApp/Sora.AbpDemo.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Sora.AbpDemo.DbMigrator": {
+      "path": "src/Sora.AbpDemo.DbMigrator/Sora.AbpDemo.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Sora.AbpDemo.HttpApi.Host": {
+      "path": "src/Sora.AbpDemo.HttpApi.Host/Sora.AbpDemo.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Sora.AbpDemo.Domain": {
+      "path": "src/Sora.AbpDemo.Domain/Sora.AbpDemo.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
